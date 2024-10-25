@@ -12,7 +12,7 @@ background-color: black;
 }
 h1{
   font-size: 90px;
-  color: white;
+  color: rgb(235, 234, 234);
   letter-spacing: 2px;
 }
 .side{
@@ -23,6 +23,8 @@ h1{
 .side.left{
 position: absolute;
 left: 0;
+background-image: url(https://sdcdn.io/mac/us/mac_sku_S4K001_1x1_0.png?width=1440&height=1440);
+background-size: cover;
 background-color: white;
 }
 .side.left h1{
@@ -31,10 +33,34 @@ background-color: white;
 .side.right{
   position: absolute;
   right: 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0je7uzOBVZwAoHQsNFL0GD5i2KWenO3z0Zw&s);
+  background-size: cover;
 }
 button{
+  position: absolute;
   padding: 20px 40px;
-  border: none; 
+  border: 5px solid rgb(255, 167, 182);
   border-radius: 2px;
+  cursor: pointer;
+  transition: 0.4s;
+  right: 10%;
   font-size: 17px;
+  margin-top: 200px;
+}
+button:hover{
+  width: 200px;
+}
+.left-btn{
+  background-color: black;
+  color: white;
+}
+.left-btn:hover{
+  opacity: 0.6;
+}
+.right-btn{
+  background-color: white;
+  color:black;
+}
+.right-btn:hover{
+  opacity: 0.6;
 }
