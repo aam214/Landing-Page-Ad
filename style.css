@@ -12,12 +12,14 @@ background-color: black;
 }
 h1{
   font-size: 90px;
-  color: rgb(235, 234, 234);
+  background-color: rgba(255, 167, 182, 0.24);
+color: black;
   letter-spacing: 2px;
 }
 .side{
   width: 50%;
   height: 100%;
+  overflow: hidden;
   top: 0;
 }
 .side.left{
@@ -29,10 +31,12 @@ background-color: white;
 }
 .side.left h1{
   color: black;
+  background-color: rgba(255, 167, 182, 0.24);
 }
 .side.right{
   position: absolute;
   right: 0;
+  background-color: black;
   background-image: url(lipgloss.jpg);
   background-size: cover;
 }
@@ -44,7 +48,7 @@ button{
   cursor: pointer;
   transition: 0.4s;
   right: 10%;
-  font-size: 17px;
+  font-size: 18px;
   margin-top: 200px;
 }
 button:hover{
@@ -55,12 +59,13 @@ button:hover{
   color: white;
 }
 .left-btn:hover{
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .right-btn{
   background-color: white;
   color:black;
 }
-.right-btn:hover{
-  opacity: 0.6;
-}
+  .right-btn:hover{
+    opacity: 0.8;
+  }
+
