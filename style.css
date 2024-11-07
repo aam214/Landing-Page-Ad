@@ -33,7 +33,7 @@ background-color: white;
 .side.right{
   position: absolute;
   right: 0;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0je7uzOBVZwAoHQsNFL0GD5i2KWenO3z0Zw&s);
+  background-image: url(lipgloss.jpg);
   background-size: cover;
 }
 button{
