@@ -1,5 +1,4 @@
 body{
-background-color: black;
   font-family: "Cormorant", serif;
   font-optical-sizing: auto;
   font-weight:400;
@@ -12,6 +11,7 @@ background-color: black;
 }
 h1{
   font-size: 90px;
+  font-weight: 700;
   background-color: rgba(255, 167, 182, 0.24);
 color: black;
   letter-spacing: 2px;
@@ -25,6 +25,7 @@ color: black;
 .side.left{
 position: absolute;
 left: 0;
+cursor: pointer;
 background-image: url(https://sdcdn.io/mac/us/mac_sku_S4K001_1x1_0.png?width=1440&height=1440);
 background-size: cover;
 background-color: white;
@@ -36,9 +37,27 @@ background-color: white;
 .side.right{
   position: absolute;
   right: 0;
-  background-color: black;
+  cursor: pointer;
   background-image: url(lipgloss.jpg);
   background-size: cover;
+}
+.active-left .left{
+  width: 60%;
+}
+
+.active-left .right{
+  width: 35%;
+}
+
+.active-right .left{
+  width: 35%;
+}
+
+.active-right .right{
+  width: 60%;
+}
+.left, .right{
+  transition: width 1.5s ease-in-out;
 }
 button{
   position: absolute;
